@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4f5dc439.css",
+    "main.js": "/static/js/main.1ddfce93.js",
+    "static/media/BeachOne.mp4": "/static/media/BeachOne.211b11ef2a9c64c24698.mp4",
+    "static/media/world.jpg": "/static/media/world.ad3dc3b00030b44b8180.jpg",
+    "static/media/island00.jpg": "/static/media/island00.a80ff53fc3e0953f9318.jpg",
+    "static/media/contact01.jpg": "/static/media/contact01.82632a7d03ce53df0b5a.jpg",
+    "static/media/destiny2.jpg": "/static/media/destiny2.9e9a81a7f76aa55a8746.jpg",
+    "static/media/tajMahal01.jpg": "/static/media/tajMahal01.a8f207bdd11c9e3ba104.jpg",
+    "static/media/thanjaiKoil.jpg": "/static/media/thanjaiKoil.b93913c4c94236e24427.jpg",
+    "static/media/island01.jpg": "/static/media/island01.405db4214262eb0013a0.jpg",
+    "static/media/destiny1.jpg": "/static/media/destiny1.6998dec37669a68ae64f.jpg",
+    "static/media/tajMahal.jpg": "/static/media/tajMahal.0874527928b266465367.jpg",
+    "static/media/island.jpg": "/static/media/island.b26bf16c843e4bff4e33.jpg",
+    "static/media/malaysia.jpg": "/static/media/malaysia.18c2330d57505ff40c9c.jpg",
+    "static/media/france.jpg": "/static/media/france.4e54b473eac49192af6c.jpg",
+    "index.html": "/index.html",
+    "main.4f5dc439.css.map": "/static/css/main.4f5dc439.css.map",
+    "main.1ddfce93.js.map": "/static/js/main.1ddfce93.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4f5dc439.css",
+    "static/js/main.1ddfce93.js"
+  ]
+}
