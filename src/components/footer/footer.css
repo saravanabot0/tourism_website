@@ -1,0 +1,109 @@
+.footer {
+    padding: 2rem 6rem;
+    background: #3586ff;
+    color: #fff;
+    position: relative;
+    margin-top: 13rem;
+}
+.footer .wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url("../../assets/wave.png");
+    background-size: 1000px 100px;
+}
+.footer .wave#wave1 {
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+.footer .wave#wave2 {
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+}
+.footer .wave#wave3 {
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+.footer .wave#wave4 {
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+}
+@keyframes animateWave {
+    0% {
+        background-position-x: 1000px;
+    }
+    100% {
+        background-position-x: 0px;
+    }
+}
+@keyframes animateWave_02 {
+    0% {
+        background-position-x: 0px;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+.top {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top a {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+.top .socialMediaIcons:hover {
+    color: #000;
+}
+.bottom {
+    padding-top: 3rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottom div {
+    display: flex;
+    flex-direction: column;
+}
+.bottom h4 {
+    font-size: 1.3rem;
+    padding: 1rem 0 .8rem 0;
+}
+.bottom a {
+    text-decoration: none;
+    color: #eae9e9;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 4rem 2rem;
+    }
+    .top div:nth-child(2) {
+        margin: 1rem 1rem 0 0;
+    }
+    .top a {
+        font-size: 1.8rem;
+    }
+    .bottom div {
+        width: 50%;
+    }
+}
